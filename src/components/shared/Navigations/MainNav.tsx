@@ -47,7 +47,7 @@ const MainNav = () => {
 							className="text-md  font-bold  hover:cursor-pointer"
 							onClick={() => route.push("/dashboard/home" as `/${string}`)}
 						>
-							Electronic Letter Submission System
+							E-Letter Submission Portal (ELSP)
 						</div>
 					</div>
 					{/* <NavigationMenuConf /> */}

@@ -19,7 +19,7 @@ const TopNav = () => {
 							className="text-md font-bold text-primary hover:cursor-pointer"
 							onClick={() => route.push("/home")}
 						>
-							Electronic Letter Submission System
+							E-Letter Submission Portal (ELSP)
 						</div>
 					</div>
 
