@@ -1,0 +1,268 @@
+{
+	"metadata": {
+		"description": "በብሩህ የግብይት መሳሪያዎች እንዲሁም የኔክስት.js 15 እና እንዲሁም የReact 19 እና ሌሎችን ብርቅ ብቁነት ለማሳመም ያለዎትን ንብረት ለመሻሻል አዘጋጅቶ የኤኮማርስ ንብረት አይነት",
+		"title": {
+			"home": "መነሻ ገጽ"
+		}
+	},
+	"PathnamesPage": {
+		"description": "<p>ሪሊቨርስ መጫወቻ | ኔክስት-ኢንትል | አድራሻ አርክሶች በቋንቋ ሊተነቡ ይችላሉ።</p><p>የእንግሊዝኛ ቋንቋ በእርስዎ በነቅናችሁ ከምንቀርባት ጋር ሲሆን፣ በእዚህ ገጽ የእንግሊዝኛ ቋንቋን እየተጠቀሙ በትክክል የሚሰማውን ማድረግ ይችላሉ።</p><p>ቋንቋን ወደ ጀርመን ማሻሻል እንደሚፈልጉት ቋንቋን ቀይር እንደሚሰማ በተንበረከነው እንደሚታወቀ የቋንቋ ምንጭ (ይሄንን እንደገና ሞክሩ)...</p>",
+		"title": "አድራሻ አርክሶች"
+	},
+	"mode-toggle": {
+		"dark": "ጥቁር",
+		"light": "ነጭ",
+		"system": "ስስተም",
+		"toggleTheme": "ገጽታን ቀይር"
+	},
+
+	"LocaleSwitcher": {
+		"changeLanguage": "ቋንቋን ለውጥ",
+		"english": "እንግሊዝኛ",
+		"amharic": "አማርኛ"
+	},
+	"Login": {
+		"loginTitle": "ኪዮስክ ማሽን  ዲኤምስ መግቢያ",
+		"loginPrompt": "ወደ መለያህ ግባ",
+		"email": "ኢሜይል",
+		"password": "የይለፍ ቃል",
+		"forgotPassword": "የይለፍ ቃልን ረስተዋል?",
+		"login": "ግባ"
+	},
+	"LandingPage": {
+		"title": "ወደ ኢኖቬሽንና ቴክኖሎጂ ሚኒስቴር እንኳን በደህና መጡ",
+		"subtitle": "በኢትዮጵያ ኢኖቬሽንና ቴክኖሎጂ መሪ ተቋም",
+		"description": "የኢትዮጵያ ኢኖቬሽንና ቴክኖሎጂ ሚኒስቴር በሃገሪቱ አስተማማኝ የሆነ ለዉጥ ለማምጣት በግንባር ቀደምነት የሚሰራ!",
+		"videoTitle": "የሚኒስቴሩን ራእይ ይጎብኙ",
+		"button": "ይቀጥሉ"
+	},
+
+	"LedgerForm": {
+		"carrier_information": "የአምጪዉ መረጃ",
+		"DocumentUpload": "ሰነድ መጫኛ",
+		"DocumentInfo": "የሰነድ መረጃ",
+		"recipient_info": "የተቀባይ መረጃ",
+		"fields": {
+			"carrier_person_first_name": {
+				"label": "የአምጪዉ የመጀመሪያ ስም",
+				"placeholder": "የአምጪዉን የመጀመሪያ ስም ያስገቡ",
+				"description": "የአምጪዉን የመጀመሪያ ስም ያስገቡ",
+				"error": "የአምጪዉ የመጀመሪያ ስም ያስፈልጋል"
+			},
+			"carrier_person_middle_name": {
+				"label": "የአምጪዉ የአባት ስም",
+				"placeholder": "የአምጪዉን የአባት ስም ያስገቡ",
+				"description": "የአምጪዉን የአባት ስም ያስገቡ",
+				"error": "የአምጪዉ የአባት ስም ያስፈልጋል"
+			},
+			"carrier_person_last_name": {
+				"label": "የአምጪዉ የአያት ስም",
+				"placeholder": "የአምጪዉን የአያት ስም ያስገቡ",
+				"description": "የአምጪዉን የአያት ስም ያስገቡ",
+				"error": "የአምጪዉ የአያት ስም ያስፈልጋል"
+			},
+			"carrier_phone_number": {
+				"label": "የአምጪዉ ስልክ ቁጥር",
+				"placeholder": "የአምጪዉን ስልክ ቁጥር ያስገቡ",
+				"description": "የአምጪዉን ስልክ ቁጥር ያስገቡ",
+				"error": "የአምጪዉ ስልክ ቁጥር ያስፈልጋል"
+			},
+			"carrier_type": {
+				"label": "የአስተላላፊ አይነት",
+				"placeholder": "የአስተላላፊ አይነት ያስገቡ",
+				"description": "የአስተላላፊ አይነት ያስገቡ",
+				"error": "የአስተላላፊ አይነት ያስፈልጋል",
+				"options": {
+					"Individual": "ግለሰብ",
+					"Organization": "ድርጅት"
+				}
+			},
+			"organization_type": {
+				"label": "የድርጅት አይነት",
+				"placeholder": "የድርጅት አይነት ያስገቡ",
+				"description": "የድርጅት አይነት ያስገቡ",
+				"error": "የድርጅት አይነት ያስፈልጋል",
+				"options": {
+					"private": "ግል",
+					"EthioPosta": "ኢትዮጵያ ፖስታ",
+					"DHL": "ዲኤችኤል",
+					"Other": "ሌላ"
+				}
+			},
+
+			"carrier_organization_id": {
+				"label": "የአስተላላፊ ድርጅት መታወቂያ",
+				"placeholder": "የአስተላላፊ ድርጅት መታወቂያ ያስገቡ",
+				"description": "የአስተላላፊ ድርጅት መታወቂያ ያስገቡ",
+				"error": "የአስተላላፊ ድርጅት መታወቂያ ያስፈልጋል"
+			},
+			"carrier_plate_number": {
+				"label": "የአስተላላፊ የታንኳ ቁጥር",
+				"placeholder": "የአስተላላፊ የታንኳ ቁጥር ያስገቡ",
+				"description": "የአስተላላፊ የታንኳ ቁጥር ያስገቡ",
+				"error": "የአስተላላፊ የታንኳ ቁጥር ያስፈልጋል"
+			},
+			"letters": {
+				"label": "ደብዳቤዎች",
+				"placeholder": "ደብዳቤዎችን ያስገቡ",
+				"description": "ደብዳቤዎችን ያስገቡ",
+				"error": "ደብዳቤዎች ያስፈልጋሉ"
+			},
+			"attachments": {
+				"label": "አባሪዎች",
+				"placeholder": "አባሪዎችን ያስገቡ",
+				"description": "አባሪዎችን ያስገቡ",
+				"error": "አባሪዎች ያስፈልጋሉ"
+			},
+			"additional_message": {
+				"label": "ተጨማሪ መልእክት",
+				"placeholder": "ተጨማሪ መልእክት ያስገቡ",
+				"description": "ተጨማሪ መልእክት ያስገቡ",
+				"error": "ተጨማሪ መልእክት ያስፈልጋል"
+			},
+			"document_type": {
+				"label": "የሰነድ አይነት",
+				"placeholder": "የሰነድ አይነት ያስገቡ",
+				"description": "የሰነድ አይነት ያስገቡ",
+				"error": "የሰነድ አይነት ያስፈልጋል"
+			},
+			"document_date": {
+				"label": "የሰነድ ቀን",
+				"placeholder": "የሰነድ ቀን ያስገቡ",
+				"description": "የሰነድ ቀን ያስገቡ",
+				"error": "የሰነድ ቀን ያስፈልጋል"
+			},
+			"document_owner": {
+				"label": "የሰነድ ባለቤት",
+				"placeholder": "የሰነድ ባለቤት ያስገቡ",
+				"description": "የሰነድ ባለቤት ያስገቡ",
+				"error": "የሰነድ ባለቤት ያስፈልጋል"
+			},
+			"ledger_id": {
+				"label": "የመዝገብ መታወቂያ",
+				"placeholder": "የመዝገብ መታወቂያ ያስገቡ",
+				"description": "የመዝገብ መታወቂያ ያስገቡ",
+				"error": "የመዝገብ መታወቂያ ያስፈልጋል"
+			},
+			"ledger_subject": {
+				"label": "የመዝገብ ርዕስ",
+				"placeholder": "የመዝገብ ርዕስ ያስገቡ",
+				"description": "የመዝገብ ርዕስ ያስገቡ",
+				"error": "የመዝገብ ርዕስ ያስፈልጋል"
+			},
+			"ledger_description": {
+				"label": "የመዝገብ መግለጫ",
+				"placeholder": "የመዝገብ መግለጫ ያስገቡ",
+				"description": "የመዝገብ መግለጫ ያስገቡ",
+				"error": "የመዝገብ መግለጫ ያስፈልጋል"
+			},
+			"ledger_type": {
+				"label": "የመዝገብ አይነት",
+				"placeholder": "የመዝገብ አይነት ያስገቡ",
+				"description": "የመዝገብ አይነት ያስገቡ",
+				"error": "የመዝገብ አይነት ያስፈልጋል"
+			},
+			"delivery_medium": {
+				"label": "የማድረሻ መንገድ",
+				"placeholder": "የማድረሻ መንገድ ያስገቡ",
+				"description": "የማድረሻ መንገድ ያስገቡ",
+				"error": "የማድረሻ መንገድ ያስፈልጋል",
+				"options": {
+					"RIDE": "ራይድ",
+					"POSTA": "ፖስታ",
+					"PRIVATE": "የግል",
+					"MOTOR": "ሞተር",
+					"OTHER": "ሌላ"
+				}
+			},
+			"external_reference_id": {
+				"label": "የውጪ ማጣቀሻ መታወቂያ",
+				"placeholder": "የውጪ ማጣቀሻ መታወቂያ ያስገቡ",
+				"description": "የውጪ ማጣቀሻ መታወቂያ ያስገቡ",
+				"error": "የውጪ ማጣቀሻ መታወቂያ የተሳሳተ ነው"
+			},
+			"delivery_channel": {
+				"label": "የማድረሻ ቻናል",
+				"placeholder": "የማድረሻ ቻናል ያስገቡ",
+				"description": "የማድረሻ ቻናል ያስገቡ",
+				"error": "የማድረሻ ቻናል ያስፈልጋል",
+				"options": {
+					"INPERSON": "ሰነድ ላኪዉ ድርጅት",
+					"DELIVERY": "አድራሽ ድርጅት"
+				}
+			},
+			"delivery_organization": {
+				"label": "አድራሽ ድርጅት",
+				"placeholder": "አድራሽ ድርጅት ያስገቡ",
+				"description": "አድራሽ ድርጅት ያስገቡ",
+				"error": "አድራሽ ድርጅት ያስፈልጋል"
+			},
+			"tracking_number": {
+				"label": "የመከታተያ ቁጥር",
+				"placeholder": "የመከታተያ ቁጥር ያስገቡ",
+				"description": "የመከታተያ ቁጥር ያስገቡ",
+				"error": "የመከታተያ ቁጥርያስፈልጋል"
+			},
+			"expected_delivery_date": {
+				"label": "ተጠባቂ የመድረሻ ቀን",
+				"placeholder": "ተጠባቂ የመድረሻ ቀን ያስገቡ",
+				"description": "ተጠባቂ የመድረሻ ቀን ያስገቡ",
+				"error": "ተጠባቂ የመድረሻ ቀን ያስፈልጋል"
+			},
+			"delivery_status": {
+				"label": "የመድረሻ ሁኔታ",
+				"placeholder": "የመድረሻ ሁኔታ ያስገቡ",
+				"description": "የመድረሻ ሁኔታ ያስገቡ",
+				"error": "የመድረሻ ሁኔታ ያስፈልጋል"
+			},
+			"meta_tags": {
+				"label": "ሜታ መለያ",
+				"placeholder": "ሜታ መለያ ያስገቡ",
+				"description": "ሜታ መለያ ያስገቡ",
+				"error": "ሜታ መለያ ያስፈልጋል"
+			},
+			"source_system": {
+				"label": "መነሻ ስርዓት",
+				"placeholder": "መነሻ ስርዓት ያስገቡ",
+				"description": "መነሻ ስርዓት ያስገቡ",
+				"error": "መነሻ ስርዓት ያስፈልጋል"
+			},
+			"recipient_name": {
+				"label": "የተቀባይ ስም",
+				"placeholder": "የተቀባይ ስም ያስገቡ",
+				"description": "የተቀባይ ስም ያስገቡ",
+				"error": "የተቀባይ ስም ያስፈልጋል"
+			},
+			"recipient_phone_number": {
+				"label": "የተቀባይ ስልክ ቁጥር",
+				"placeholder": "የተቀባይ ስልክ ቁጥር ያስገቡ",
+				"description": "የተቀባይ ስልክ ቁጥር ያስገቡ",
+				"error": "የተቀባይ ስልክ ቁጥር ያስፈልጋል"
+			},
+			"recipient_email": {
+				"label": "የተቀባይ ኢሜይል",
+				"placeholder": "የተቀባይ ኢሜይል ያስገቡ",
+				"description": "የተቀባይ ኢሜይል ያስገቡ",
+				"error": "የተቀባይ ኢሜይል ያስፈልጋል"
+			},
+			"job_title": {
+				"label": "የስራ መደበኛ ስም",
+				"placeholder": "የስራ መደበኛ ስም ያስገቡ",
+				"description": "የስራ መደበኛ ስም ያስገቡ",
+				"error": "የስራ መደበኛ ስም ያስፈልጋል"
+			},
+			"department": {
+				"label": "ዲፓርትመንት",
+				"placeholder": "ዲፓርትመንት ያስገቡ",
+				"description": "ዲፓርትመንት ያስገቡ",
+				"error": "ዲፓርትመንት ያስፈልጋል"
+			},
+			"sector": {
+				"label": "ዘርፍ",
+				"placeholder": "ዘርፍ ያስገቡ",
+				"description": "ዘርፍ ያስገቡ",
+				"error": "ዘርፍ ያስፈልጋል"
+			}
+		}
+	}
+}
