@@ -24,7 +24,7 @@ const TopNav = () => {
 					</div>
 
 					<div className="mr-0 flex items-center gap-2 md:mr-2">
-						<LocaleSwitcher />
+						{/* <LocaleSwitcher /> */}
 
 						<ModeToggle />
 					</div>

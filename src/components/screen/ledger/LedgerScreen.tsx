@@ -169,7 +169,7 @@ export default function LedgerScreen() {
 				open={isDialogOpen}
 				onClose={() => setIsDialogOpen(false)}
 				message={`Your operation was successful! Your Tracking number will be ${submitedLedger?.tracking_number} `}
-				actionLabel="Download Tracker"
+				actionLabel="Finish"
 				onAction={handleSuccessAction}
 			/>
 		</>

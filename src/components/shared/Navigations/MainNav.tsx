@@ -54,7 +54,7 @@ const MainNav = () => {
 
 					<div className="mr-0 flex items-center gap-2 md:mr-2">
 						<ModeToggle />
-						<LocaleSwitcher />
+						{/* <LocaleSwitcher /> */}
 						<DropdownMenu>
 							<DropdownMenuTrigger asChild>
 								<Button
