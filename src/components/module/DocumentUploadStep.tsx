@@ -327,7 +327,7 @@ export default function DocumentUploadStep({
 
 			<div className="flex justify-end">
 				<Button type="submit" className="px-8" disabled={isUploading}>
-					{isUploading ? "Uploading..." : "Save and Next"}
+					{isUploading ? "Uploading..." : "Save and Continue"}
 				</Button>
 			</div>
 		</form>
