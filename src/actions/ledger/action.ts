@@ -24,7 +24,7 @@ export const setLedger = async (
 		return {
 			ok: response.status >= 200 && response.status < 300,
 			message: response.data?.message || "አዲስ መዝገብ በተሳካ ሁኔታ ፈጥረዋል!",
-			data: response.data?.data,
+			data: response.data,
 		};
 	} catch (error: any) {
 		console.log("error", error);

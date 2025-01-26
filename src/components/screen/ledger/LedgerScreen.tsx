@@ -2,10 +2,7 @@
 
 import { useState } from "react";
 
-import {
-	useGetLedgerTracker,
-	useUpdateLedger,
-} from "@/actions/Query/ledger_Query/request";
+import { useUpdateLedger } from "@/actions/Query/ledger_Query/request";
 import DocumentUploadStep from "@/components/module/DocumentUploadStep";
 import SenderInfoStep from "@/components/module/InfoStep";
 import ReviewStep from "@/components/module/ReviewStep";
@@ -52,8 +49,11 @@ export default function LedgerScreen() {
 	});
 
 	const [isDialogOpen, setIsDialogOpen] = useState(false);
-	const [enable, setEnable] = useState(false);
-	const ledger = useAppSelector((state) => state.ledger.ledgerSlice);
+	// const [enable, setEnable] = useState(false);
+	// const ledger = useAppSelector((state) => state.ledger.ledgerSlice);
+	const submitedLedger = useAppSelector(
+		(state) => state.submitted.submitedData
+	);
 
 	const totalSteps = 3;
 
@@ -75,14 +75,14 @@ export default function LedgerScreen() {
 		setIsDialogOpen(true);
 		// Reset the form or navigate to a success page
 	};
-	const { data: trackerPdf, isSuccess } = useGetLedgerTracker(
-		ledger?.id,
-		enable
-	);
+	// const { data: trackerPdf, isSuccess } = useGetLedgerTracker(
+	// 	ledger?.id,
+	// 	enable
+	// );
 
 	const { mutate: UpdateLedger } = useUpdateLedger();
 	const handleSuccessAction = async () => {
-		setEnable(true);
+		// setEnable(true);
 		toast({
 			title: "Success",
 			description: "Succesfuly downloaded.",
@@ -111,23 +111,23 @@ export default function LedgerScreen() {
 
 		await UpdateLedger(
 			{
-				ledger_id: ledger?.id,
+				ledger_id: submitedLedger?.id,
 				SendData: sendData,
-			},
-			{
-				onSuccess: async () => {
-					if (isSuccess) {
-						const printWindow = window.open(
-							`${process.env.NEXT_PUBLIC_API_BASE_URL}${trackerPdf}`
-						);
-						if (printWindow) {
-							printWindow.onload = () => {
-								printWindow.print();
-							};
-						}
-					}
-				},
 			}
+			// {
+			// 	onSuccess: async () => {
+			// 		if (isSuccess) {
+			// 			const printWindow = window.open(
+			// 				`${process.env.NEXT_PUBLIC_API_BASE_URL}${trackerPdf}`
+			// 			);
+			// 			if (printWindow) {
+			// 				printWindow.onload = () => {
+			// 					printWindow.print();
+			// 				};
+			// 			}
+			// 		}
+			// 	},
+			// }
 		);
 	};
 
@@ -168,7 +168,7 @@ export default function LedgerScreen() {
 			<Success
 				open={isDialogOpen}
 				onClose={() => setIsDialogOpen(false)}
-				message="Your operation was successful! Download your Letter Tracker"
+				message={`Your operation was successful! Your Tracking number will be ${submitedLedger?.tracking_number} `}
 				actionLabel="Download Tracker"
 				onAction={handleSuccessAction}
 			/>

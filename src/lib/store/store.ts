@@ -4,6 +4,7 @@ import createWebStorage from "redux-persist/lib/storage/createWebStorage";
 
 import ledgerReducer from "./redux/ledgerSlice";
 import loadersReducer from "./redux/loadersSlice";
+import submitedReducer from "./redux/submitedSlice";
 import usersReducer from "./redux/usersSlice";
 
 // Create noop storage for server-side rendering (SSR)
@@ -32,6 +33,7 @@ const rootReducer = combineReducers({
 	users: usersReducer,
 	loaders: loadersReducer,
 	ledger: ledgerReducer,
+	submitted: submitedReducer,
 });
 
 // Persist configuration

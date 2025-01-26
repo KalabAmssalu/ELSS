@@ -22,8 +22,8 @@ export default function AuthLayout({ children }: AuthLayoutProps) {
 				</div>
 				<footer className="bg-primary text-primary-foreground text-sm p-2 text-center">
 					<p>
-						@ 2025GC, E-Letter Submission Portal (ELSP) Minsitry of
-						Innovation and Technology
+						@ 2025GC, E-Letter Submission Portal (ELSP) Minsitry of Innovation
+						and Technology
 					</p>
 				</footer>
 			</div>
