@@ -40,10 +40,12 @@ export const update_ledger = async ({
 	SendData: Partial<LedgerType>;
 }): Promise<APIResponseType> => {
 	try {
-		const response = await axiosInstance.post(
+		console.log("SEND TO UPADATE", SendData, ledger_id);
+		const response = await axiosInstance.put(
 			`ledgers/${ledger_id}/update/`,
 			SendData
 		);
+		console.log("update response", response);
 		return {
 			ok: true,
 			message: response.data?.message || "Create A letter",

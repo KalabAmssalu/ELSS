@@ -53,7 +53,7 @@ export default function ReviewStep({
 							<p>Phone: {data.recipient_phone_number}</p>
 							<p>Job Title: {data.job_title}</p>
 							<p>Department: {data.department}</p>
-							<p>Received At: {data.received_at}</p>
+							<p>Received At: {data.written_at}</p>
 						</ReviewSection>
 						<ReviewSection title="Ledger Details">
 							<p>Subject: {data.ledger_subject}</p>

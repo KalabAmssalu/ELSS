@@ -24,23 +24,23 @@ export default function LedgerScreen() {
 		carrier_person_first_name: "",
 		carrier_person_middle_name: "",
 		carrier_phone_number: "",
-		document_date: "",
+		// document_date: "",
 		ledger_subject: "",
-		ledger_description: "",
+		// ledger_description: "",
 		tracking_number: "",
 		ledger_status: "PENDING", // Assuming PENDING is a valid default status
 		recipient_name: "",
 		recipient_phone_number: "",
 		job_title: "",
 		department: "",
-		sector: "",
-		received_at: "",
+		// sector: "",
+		written_at: "",
 		priority: "LOW", // Assuming LOW is a valid default priority
-		metadata_title: "",
-		metadata_content: "",
-		metadata_author: "",
-		metadata_dateCreated: "",
-		metadata_lastModified: "",
+		// metadata_title: "",
+		// metadata_content: "",
+		// metadata_author: "",
+		// metadata_dateCreated: "",
+		// metadata_lastModified: "",
 		metadata_keywords: "",
 		metadata_tags: "",
 		metadata_file_type: "",
@@ -95,7 +95,10 @@ export default function LedgerScreen() {
 			letters,
 			metadata_confidentiality,
 			metadata_language,
-			received_at,
+			tracking_number,
+			job_title, // you can remove this line
+			department, // you can remove this line
+			written_at,
 			...sendData
 		} = ledgerData;
 
@@ -103,12 +106,16 @@ export default function LedgerScreen() {
 			"send remove data",
 			id,
 			attachments,
+			job_title,
+			department,
 			letters,
+			tracking_number,
 			metadata_confidentiality,
 			metadata_language,
-			received_at
+			written_at
 		);
-
+		// TODO this is the submission
+		// I have remove the job Titile and department if it is the problem gen aleseram
 		await UpdateLedger(
 			{
 				ledger_id: submitedLedger?.id,

@@ -44,9 +44,7 @@ export interface LedgerType {
 	carrier_person_first_name?: string;
 	carrier_person_middle_name?: string;
 	carrier_phone_number?: string;
-	document_date?: string;
 	ledger_subject?: string;
-	ledger_description?: string;
 	tracking_number?: string;
 	ledger_status?:
 		| "PENDING"
@@ -58,14 +56,8 @@ export interface LedgerType {
 	recipient_phone_number?: string;
 	job_title?: string;
 	department?: string;
-	sector?: string;
-	received_at?: string;
+	written_at?: string;
 	priority?: "LOW" | "MEDIUM" | "HIGH";
-	metadata_title?: string;
-	metadata_content?: string;
-	metadata_author?: string;
-	metadata_dateCreated?: string;
-	metadata_lastModified?: string;
 	metadata_keywords?: string;
 	metadata_tags?: string;
 	metadata_file_type?: string;
